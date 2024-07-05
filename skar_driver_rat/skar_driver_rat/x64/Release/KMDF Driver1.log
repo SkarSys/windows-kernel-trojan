@@ -1,0 +1,9 @@
+﻿  Building 'SkarDriver - RAT' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (KMDF Driver1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  KMDF Driver1.vcxproj -> Z:\Zeno\Zenny\Code & Malware\Malware\PrivTemp - driver rat v1.5\KMDF Driver1\x64\Release\SkarDriver-RAT.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
